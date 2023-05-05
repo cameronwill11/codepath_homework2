@@ -20,7 +20,7 @@ Milestone 5: Attack!
 Any Issue Encountered
 Configuration of mhn and vm instances actually took a lot of time but overall all the issues had been resolved.
 
-ERROR 1: Killed python initdatabase.py. Once run $ sudo supervisorctl status, only geoloc, honeymap, hpfeeds-broker and mnemosyne are running. (solution: increase VM RAM to at least 1GB)
+ERROR 1: couldn't get my GCP to download python magic properly.
 ERROR 2: my attacks weren't working so i had to delete everything twice and setup my GCP to try and get it to work.
 ERROR 3: When connect honeypots to mhn-admin always return a failure message: connection time out. (solution: check/rebuild mhn-admin and mhn-honeypot firewall. Also try to run [$ sudo apt-get update] and [$ sudo apt-get install software-properties-common -y] in mhn-honeypot ssh)
 
