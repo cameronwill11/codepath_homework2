@@ -43,7 +43,7 @@ TOP 5 Attacked ports:
 
 
 
-<img src="sensors.png">
+<img src="Sensors.png">
 
 
 
